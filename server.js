@@ -25,37 +25,37 @@ app.set('view engine', 'hypatia') // register the hypatia view engine
 
 // Mount routes
 app.get('/thing1', (req, res) => {
-    res.render('template1', { title: 'We', message: 'Template 1!', content: 'thing1'})
+    res.render('template1', { title: '1', message: 'Template 1!', content: 'thing1'})
 })
 app.get('/thing2', (req, res) => {
-    res.render('template1', { title: 'We', message: 'Template 1!', content: 'thing2'})
+    res.render('template1', { title: '2', message: 'Template 1!', content: 'thing2'})
 })
 app.get('/thing3', (req, res) => {
-    res.render('template1', { title: 'We', message: 'Template 1!', content: 'thing3'})
+    res.render('template1', { title: '3', message: 'Template 1!', content: 'thing3'})
 })
 app.get('/thing4', (req, res) => {
-    res.render('template1', { title: 'We', message: 'Template 1!', content: 'thing4'})
+    res.render('template1', { title: '4', message: 'Template 1!', content: 'thing4'})
 })
 app.get('/thing5', (req, res) => {
-    res.render('template1', { title: 'We', message: 'Template 1!', content: 'thing5'})
+    res.render('template1', { title: '5', message: 'Template 1!', content: 'thing5'})
 })
 
 
 
 app.get('/thing6', (req, res) => {
-    res.render('template2', { title: 'We', message: 'Template 2!', content: 'thing6'})
+    res.render('template2', { title: '6', message: 'Template 2!', content: 'thing6'})
 })
 app.get('/thing7', (req, res) => {
-    res.render('template2', { title: 'We', message: 'Template 2!', content: 'thing7'})
+    res.render('template2', { title: '7', message: 'Template 2!', content: 'thing7'})
 })
 app.get('/thing8', (req, res) => {
-    res.render('template2', { title: 'We', message: 'Template 2!', content: 'thing8'})
+    res.render('template2', { title: '8', message: 'Template 2!', content: 'thing8'})
 })
 app.get('/thing9', (req, res) => {
-    res.render('template2', { title: 'We', message: 'Template 2!', content: 'thing9'})
+    res.render('template2', { title: '9', message: 'Template 2!', content: 'thing9'})
 })
 app.get('/thing10', (req, res) => {
-    res.render('template2', { title: 'We', message: 'Template 2!', content: 'thing10'})
+    res.render('template2', { title: '10', message: 'Template 2!', content: 'thing10'})
 })
 
 
